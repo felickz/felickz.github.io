@@ -12,3 +12,7 @@ title:  "My Dev Journal"
 ## Visual Studio / Resharper Shortcuts Reset (Resharper rename command not working)
 * https://stackoverflow.com/a/32986183/343347
 * Ctrl+R, Ctrl+R
+
+## Visual Studio Colored Tabs
+* Comming soon(TM) - currently only have vertical tabs + project grouping (no color)
+* 3 year long thread for simple feature :D https://developercommunity.visualstudio.com/t/color-coded-tabs-in-visual-studio/351700
