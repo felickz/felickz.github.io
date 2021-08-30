@@ -3,7 +3,7 @@ layout: post
 title:  "My Dev Journal"
 ---
 
-# 8/27
+# 08/27/2021
 
 ## Resharper - Intellisense not working at all for signature ( Ctrl + Space) 
 * Resharper -> Options -> IntelliSense -> General 
