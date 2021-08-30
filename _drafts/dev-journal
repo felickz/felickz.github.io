@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "My Dev Journal"
+---
+
+# 8/27
+
+## Resharper - Intellisense not working at all for signature ( Ctrl + Space) 
+* Resharper -> Options -> IntelliSense -> General 
+** WAS Resharper - set to Visual Studio
+
+## Visual Studio / Resharper Shortcuts Reset (Resharper rename command not working)
+* https://stackoverflow.com/a/32986183/343347
+* Ctrl+R, Ctrl+R
