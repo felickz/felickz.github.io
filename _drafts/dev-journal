@@ -3,6 +3,11 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 08/30/2021
+
+## Azure Data Factory - Linked Service - Azure SQL MI Data Connector - Service Principal Authentication - certificate based AAD Authentication - certificate stored in KeyVault
+* WORKS as long as you map the "SECRET" to the name of the certificate ( private key of vault certificate is stored as a [hidden] secret with the same name as the certificate)
+
 # 08/27/2021
 
 ## Resharper - Intellisense not working at all for signature ( Ctrl + Space) 
