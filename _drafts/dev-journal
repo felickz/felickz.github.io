@@ -3,6 +3,10 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 09/01/2021
+## IEChooser - F12 Dev tools do not work in Edge Internet Explorer Mode ... this does though:
+* %systemroot%\system32\f12\IEChooser.exe
+
 # 08/30/2021
 
 ## Azure Data Factory - Linked Service - Azure SQL MI Data Connector - Service Principal Authentication - certificate based AAD Authentication - certificate stored in KeyVault
