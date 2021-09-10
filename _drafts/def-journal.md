@@ -3,6 +3,14 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 09/09/2021
+## SFTP - stand up a quick SFTP server in azure for POC testing 
+* https://docs.microsoft.com/en-us/samples/azure-samples/sftp-creation-template/sftp-on-azure/
+
+# 09/08/2021
+## ADF -> Storage 403 "Forbidden.StorageExtendedMessage" was missing subnet whitelist in storage FW
+* ah-ha momemnt https://docs.microsoft.com/en-us/answers/questions/172189/data-factory-link-service-connection-failed-403.html
+
 # 09/02/2021
 ## ADF
 * User Assigned Managed Identities requires Self Hosted Integration Runtime v5.8+ - https://docs.microsoft.com/en-us/answers/questions/531414/managed-identity-from-adf-to-synapse.html?childToView=536841#answer-536841
