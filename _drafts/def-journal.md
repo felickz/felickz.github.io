@@ -2,6 +2,9 @@
 layout: post
 title:  "My Dev Journal"
 ---
+# 09/10/2021
+## Azure SQL on VM - AAD support
+* Not supported: https://docs.microsoft.com/en-us/answers/questions/547986/azure-ad-authentication-support-for-azure-sql-on-v.html?childToView=548091#answer-548091
 
 # 09/09/2021
 ## SFTP - stand up a quick SFTP server in azure for POC testing 
