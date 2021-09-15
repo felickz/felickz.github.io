@@ -2,6 +2,18 @@
 layout: post
 title:  "My Dev Journal"
 ---
+
+# 09/15/2021
+## SQL MI
+* LTR feature is now in preview: https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/long-term-backup-retention-configure
+
+## App Insights
+* Client side telemetry home (hard to google this): https://docs.microsoft.com/en-us/azure/azure-monitor/app/javascript#enable-correlation
+* Configure custom user context to override defaults: https://docs.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics#authenticated-users
+
+## Libman to replace Nuget w/ static code or Bower
+* https://devblogs.microsoft.com/aspnet/what-happened-to-bower/
+
 # 09/10/2021
 ## Azure SQL on VM - AAD support
 * Not supported: https://docs.microsoft.com/en-us/answers/questions/547986/azure-ad-authentication-support-for-azure-sql-on-v.html?childToView=548091#answer-548091
@@ -41,3 +53,7 @@ title:  "My Dev Journal"
 ## Visual Studio Colored Tabs
 * Comming soon(TM) - currently only have vertical tabs + project grouping (no color)
 * 3 year long thread for simple feature :D https://developercommunity.visualstudio.com/t/color-coded-tabs-in-visual-studio/351700
+
+# 04/09/2021
+## Serilog AppInsights Sink overloads any Telemetry Initializer
+* Need to resolve a dummy initializer w/ serilog so that you can overload with your own custom - ref pattern https://stackoverflow.com/a/64879609/343347
