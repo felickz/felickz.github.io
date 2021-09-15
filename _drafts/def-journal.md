@@ -4,6 +4,9 @@ title:  "My Dev Journal"
 ---
 
 # 09/15/2021
+## TFS on prem (Devops Server)
+* set default branch you need to navigate to the /_admin/_versioncontrol menu ... not visible on the regular branches view https://stackoverflow.com/a/42198918/343347
+
 ## SQL MI
 * LTR feature is now in preview: https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/long-term-backup-retention-configure
 
