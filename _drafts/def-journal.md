@@ -3,6 +3,12 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 09/17/2021
+## Visual Studio Project formats - nuget update speed (see: https://stackoverflow.com/questions/19015305/visual-studio-hangs-constantly-during-build/30739712#30739712)
+* new [SDK style csproj format](https://docs.microsoft.com/en-us/nuget/resources/check-project-format) (see [migration tool](https://github.com/hvanbakel/CsprojToVs2017))
+* [nuget PackageReference](https://docs.microsoft.com/en-us/nuget/consume-packages/migrate-packages-config-to-package-reference) makes updates almost instant 
+* [LibMan](https://docs.microsoft.com/en-us/aspnet/core/client-side/libman/?view=aspnetcore-5.0) - lightweight library downloader as nuget packagereference does not support static file references folder deployments via the old style nuget ps scripts 
+
 # 09/15/2021
 ## TFS on prem (Devops Server)
 * set default branch you need to navigate to the /_admin/_versioncontrol menu ... not visible on the regular branches view https://stackoverflow.com/a/42198918/343347
