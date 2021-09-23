@@ -3,6 +3,10 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 09/23/2021
+## Github Training! - https://lab.github.com/githubtraining/github-actions:-hello-world
+* intiuitive PR bot that walked you through the basics of setting up github Actions w/ a dockerized debian helloworld bash script  - https://github.com/felickz/hello-github-actions/actions
+
 # 09/17/2021
 ## Visual Studio Project formats - nuget update speed (see: https://stackoverflow.com/questions/19015305/visual-studio-hangs-constantly-during-build/30739712#30739712)
 * new [SDK style csproj format](https://docs.microsoft.com/en-us/nuget/resources/check-project-format) (see [migration tool](https://github.com/hvanbakel/CsprojToVs2017))
