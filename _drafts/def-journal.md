@@ -3,6 +3,21 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 09/24/2021
+## Azure has [SSH Key as a resource](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys)!
+* Powershell [New-AzSshKey](https://docs.microsoft.com/en-us/powershell/module/az.compute/new-azsshkey?view=azps-6.4.0) (generates in OpenSSH format)
+```powershell
+New-AzSshKey -Name $myname -ResourceGroupName $rgname
+```
+* ADF reads from keyvault and requires it in base64
+```powershell
+[convert]::ToBase64String((Get-Content -path "<see New-AzSshKey cmd output for private key path>" -AsByteStream)) 
+```
+* Public key conversion to SSH2/SECSH
+```bash
+ssh-keygen -e -f my-openSSH.pub > my-SSH2.pub
+```
+
 # 09/23/2021
 ## Github Training! - https://lab.github.com/githubtraining/github-actions:-hello-world
 * intiuitive PR bot that walked you through the basics of setting up github Actions w/ a dockerized debian helloworld bash script  - https://github.com/felickz/hello-github-actions/actions
