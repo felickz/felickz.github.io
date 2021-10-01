@@ -3,6 +3,40 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 10/01/2021
+## [Vault Explorer](https://aka.ms/ve) - nice tool but doesnt play well with soft delete (https://github.com/microsoft/AzureKeyVaultExplorer/issues/42)
+
+# 09/30/2021
+## Mermaid! 
+- [native support in DevOps](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-markdown-guidance?view=azure-devops#add-mermaid-diagrams-to-a-wiki-page)
+- [Media wiki needs support for fontawesome](https://github.com/SemanticMediaWiki/Mermaid/issues/75)
+- gitub works better with plantUML .. [no suppport for mermaid](https://github.community/t/feature-request-support-mermaid-markdown-graph-diagrams-in-md-files/1922/205)
+
+# 09/29/2021
+## Old Nuget.Core V2 SemanticVersion bug - prerelease cannot start with numeric ... must be start with alpha
+```c#
+//Linqpad w/ nuget
+<Query Kind="Statements">
+  <NuGetReference Version="2.11.1">NuGet.Core</NuGetReference>
+  <Namespace>NuGet</Namespace>
+</Query>
+
+//Klondike uses Nuget.Core (v2) Version=2.11.1.812
+var t = typeof(NuGet.SemanticVersion);
+t.Assembly.Location.Dump();
+t.Assembly.GetName().Version.Dump(t.Assembly.GetName().FullName);
+
+//Prerelease must start with alpha
+SemanticVersion good;
+NuGet.SemanticVersion.TryParse("29.2.1-a", out good);
+good.Dump("Alpha Prerelease");
+
+//KNOWN BUG - prerelease version cannot start with a letter:
+SemanticVersion bad;
+NuGet.SemanticVersion.TryParse("29.2.1-1", out bad);
+bad.Dump("Numeric PreRelease");
+```
+
 # 09/24/2021
 ## Azure has [SSH Key as a resource](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys)!
 * Powershell [New-AzSshKey](https://docs.microsoft.com/en-us/powershell/module/az.compute/new-azsshkey?view=azps-6.4.0) (generates in OpenSSH format)
