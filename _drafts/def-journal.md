@@ -4,7 +4,8 @@ title:  "My Dev Journal"
 ---
 
 # 10/01/2021
-## [Vault Explorer](https://aka.ms/ve) - nice tool but doesnt play well with soft delete (https://github.com/microsoft/AzureKeyVaultExplorer/issues/42)
+## [Vault Explorer](https://aka.ms/ve) 
+- nice tool but doesnt play well with soft delete (https://github.com/microsoft/AzureKeyVaultExplorer/issues/42)
 
 # 09/30/2021
 ## Mermaid! 
@@ -13,7 +14,8 @@ title:  "My Dev Journal"
 - gitub works better with plantUML .. [no suppport for mermaid](https://github.community/t/feature-request-support-mermaid-markdown-graph-diagrams-in-md-files/1922/205)
 
 # 09/29/2021
-## Old Nuget.Core V2 SemanticVersion bug - prerelease cannot start with numeric ... must be start with alpha
+## Old Nuget.Core V2 SemanticVersion bug 
+- prerelease cannot start with numeric ... must be start with alpha
 ```c#
 //Linqpad w/ nuget
 <Query Kind="Statements">
