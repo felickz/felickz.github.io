@@ -32,5 +32,8 @@ As you can see, a more direct highway route used 9% more battery with minimal ti
 
 # Towing 
 
-Towing the camper is much more stressful then anything EV related. Lots of creeks and clunks coming from the camper have you constantly checking camera/mirrors.  Most notbaly the worst 
+Towing the camper is much more stressful then anything EV related. Lots of creeks and clunks coming from the camper have you constantly checking camera/mirrors.  Most notably the worst scenario:
 ![blowout](/assets/img/2021-08-01-22-08-08.png)
+
+
+Planning out your trip with [A Better Route Planner](https://abetterrouteplanner.com/) can take some of the guesswork out of figuring out far you can go without a stop at a charger.  The best way to estimate is to get a good handle of your Wh/Mile and plug those values into the app.  I find myself forcing the routes onto side roads if I want to stretch out the trip.  I also map out a point of no return such that if I make a specific charger less then my estimated value, I had better stop to play it safe.  It is also worth noting that the Tesla nav system does a pretty good job of staying close to ABRP estimates and routes.
