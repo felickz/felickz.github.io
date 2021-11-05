@@ -3,6 +3,12 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 11/05/2021
+## Windbg / SOS  to get GC version
+- install debugdiag (old school way) as standalone toolset - https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
+- load SOS `.loadby sos clr` https://docs.microsoft.com/en-us/dotnet/framework/tools/sos-dll-sos-debugging-extension#remarks
+- run eeversion `!eeversion` https://docs.microsoft.com/en-us/dotnet/framework/tools/sos-dll-sos-debugging-extension#commands 
+
 # 11/04/2021
 ## App Service - .NET IIS Application Initialization Module
  works but requires HTTP to HTTPS redirect and EXCLUDE the initialization UA + Localhost
