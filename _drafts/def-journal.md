@@ -3,57 +3,11 @@ layout: post
 title:  "My Dev Journal"
 ---
 
-# 10/20/2021
-## [Azure AD Breaking Changes](https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-breaking-changes#appid-uri-in-single-tenant-applications-will-require-use-of-default-scheme-or-verified-domains)
-- `For single tenant applications, a request to add/update AppId Uri (identifierUris) will validate that domain in the value of URI is part of the verified domain list in the customer tenant or the value uses the default scheme (api://{appId}) provided by AAD`
-   - Thankfully to avoid a massive change for me -  there is a flaw in their design in B2C that lets you create the app with a FQDN, then remove it! 
-      - Not true: `For single tenant applications, a request to add/update AppId Uri (identifierUris) will validate that domain in the value of URI is part of the verified domain list in the customer tenant or the value uses the default scheme (api://{appId}) provided by AAD`
-
-
-# 10/01/2021
-## [Vault Explorer](https://aka.ms/ve) 
-- nice tool but doesn't play well with soft delete / no purge (https://github.com/microsoft/AzureKeyVaultExplorer/issues/42)
-
-# 09/30/2021
-## Mermaid! 
-- [native support in DevOps](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-markdown-guidance?view=azure-devops#add-mermaid-diagrams-to-a-wiki-page)
-- [Media wiki needs support for fontawesome](https://github.com/SemanticMediaWiki/Mermaid/issues/75)
-- gitub works better with plantUML .. [no suppport for mermaid](https://github.community/t/feature-request-support-mermaid-markdown-graph-diagrams-in-md-files/1922/205)
--  vs code mermaid markdown support - [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
-
-::: mermaid
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->>Bob: Hi Bob
-    Bob->>Alice: Hi Alice
-:::
-
-# 09/29/2021
-## Old Nuget.Core V2 SemanticVersion bug 
-- prerelease cannot start with numeric ... must be start with alpha
-```c#
-//Linqpad w/ nuget
-<Query Kind="Statements">
-  <NuGetReference Version="2.11.1">NuGet.Core</NuGetReference>
-  <Namespace>NuGet</Namespace>
-</Query>
-
-//Klondike uses Nuget.Core (v2) Version=2.11.1.812
-var t = typeof(NuGet.SemanticVersion);
-t.Assembly.Location.Dump();
-t.Assembly.GetName().Version.Dump(t.Assembly.GetName().FullName);
-
-//Prerelease must start with alpha
-SemanticVersion good;
-NuGet.SemanticVersion.TryParse("29.2.1-a", out good);
-good.Dump("Alpha Prerelease");
-
-//KNOWN BUG - prerelease version cannot start with a letter:
-SemanticVersion bad;
-NuGet.SemanticVersion.TryParse("29.2.1-1", out bad);
-bad.Dump("Numeric PreRelease");
-```
+# 11/04/2021
+## App Service - .NET IIS Application Initialization Module
+ works but requires HTTP to HTTPS redirect and EXCLUDE the initialization UA + Localhost
+ - https://andrewwburns.com/2019/08/30/application-initialization-for-azure-service-apps-and-sitecore/
+ - https://docs.microsoft.com/en-US/troubleshoot/aspnet/application-fail-ssl-web
 
 # 09/24/2021
 ## Azure has [SSH Key as a resource](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys)!
@@ -71,7 +25,7 @@ ssh-keygen -e -f my-openSSH.pub > my-SSH2.pub
 ```
 
 # 09/23/2021
-## Github Training! - <https://lab.github.com/githubtraining/github-actions:-hello-world>
+## Github Training! - https://lab.github.com/githubtraining/github-actions:-hello-world
 * intiuitive PR bot that walked you through the basics of setting up github Actions w/ a dockerized debian helloworld bash script  - https://github.com/felickz/hello-github-actions/actions
 
 # 09/17/2021
