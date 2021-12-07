@@ -40,6 +40,12 @@ title:  "My Dev Journal"
  - https://andrewwburns.com/2019/08/30/application-initialization-for-azure-service-apps-and-sitecore/
  - https://docs.microsoft.com/en-US/troubleshoot/aspnet/application-fail-ssl-web
 
+# 10/29/2021
+## Github Universe Security Sessions
+- https://githubuniverse.com/content-library/github-security-embedded-in-the-developer-workflow/
+- https://githubuniverse.com/content-library/live-qa-ask-me-anything-about-github-advanced-security/
+- https://githubuniverse.com/content-library/searching-for-solorigate-how-codeql-empowered-the-search-for-malicious-code/
+
 # 09/24/2021
 ## Azure has [SSH Key as a resource](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys)!
 * Powershell [New-AzSshKey](https://docs.microsoft.com/en-us/powershell/module/az.compute/new-azsshkey?view=azps-6.4.0) (generates in OpenSSH format)
