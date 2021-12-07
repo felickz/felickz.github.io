@@ -3,6 +3,12 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 12/06/2021
+## Security Links of the day
+- [SNYK vulndb](https://ossindex.sonatype.org/component/pkg:nuget/Newtonsoft.Json) - always fun to find this link
+- [VS Fortify Security Assistant](https://marketplace.visualstudio.com/items?itemName=fortifyvsts.fortify-security-assistant-visual-studio&ssr=false#overview)
+- [VS Audit.NET - Sonatype](https://marketplace.visualstudio.com/items?itemName=VorSecurity.AuditNet)
+
 # 11/05/2021
 ## Windbg / SOS  to get GC version
 - install debugdiag (old school way) as standalone toolset - https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
