@@ -13,6 +13,14 @@ title:  "My Dev Journal"
 ## Azure Postgres AAD
 - https://docs.microsoft.com/en-us/azure/postgresql/howto-configure-sign-in-aad-authentication
 
+# 12/01/2021
+## Azure Container Instance RBAC
+- no built in RBAC role specific to ACI admin ... follow this [ref](https://matthewdavis111.com/powershell/azure-container-instance-teamcity/)
+```json
+    "Actions": [
+      "Microsoft.ContainerInstance/containerGroups/*"
+    ],
+```
 
 # 11/05/2021
 ## Windbg / SOS  to get GC version
