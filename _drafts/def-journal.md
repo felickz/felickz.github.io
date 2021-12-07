@@ -9,6 +9,11 @@ title:  "My Dev Journal"
 - [VS Fortify Security Assistant](https://marketplace.visualstudio.com/items?itemName=fortifyvsts.fortify-security-assistant-visual-studio&ssr=false#overview)
 - [VS Audit.NET - Sonatype](https://marketplace.visualstudio.com/items?itemName=VorSecurity.AuditNet)
 
+# 12/03/2021
+## Azure Postgres AAD
+- https://docs.microsoft.com/en-us/azure/postgresql/howto-configure-sign-in-aad-authentication
+
+
 # 11/05/2021
 ## Windbg / SOS  to get GC version
 - install debugdiag (old school way) as standalone toolset - https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
