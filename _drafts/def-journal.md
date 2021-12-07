@@ -22,6 +22,12 @@ title:  "My Dev Journal"
     ],
 ```
 
+# 11/24/2021
+## New-AzureADApplication -PublicClient $true == "Request_BadRequest Property identifierUris is invalid" 
+  - ref https://github.com/Azure/azure-cli/issues/7955
+     - TLDR: use graph api in the future :\
+                    
+
 # 11/05/2021
 ## Windbg / SOS  to get GC version
 - install debugdiag (old school way) as standalone toolset - https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
