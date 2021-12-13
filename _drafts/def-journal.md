@@ -3,6 +3,9 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 12/10/2021
+## "Extend" an AAD app's secret by creating a new one with old value ;)  - ref: https://www.jasonfritts.me/2021/06/03/extend-aad-service-principal-client-secret-expiration/
+
 # 12/06/2021
 ## Security Links of the day
 - [SNYK vulndb](https://ossindex.sonatype.org/component/pkg:nuget/Newtonsoft.Json) - always fun to find this link
