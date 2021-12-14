@@ -3,6 +3,13 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 12/14/2021
+## Keyvault Subnet Firewall failure with no clear indication as to why it is failing - FIX:need to enable Microsoft.KeyVault provider on subscription!
+```
+{"Code":"AuthorizationFailed","Message":"The client '<redacted>' with object id '<redacted>' does not have authorization to perform action 'microsoft.network/virtualnetworks/taggedTrafficConsumers/validate/action' over scope '/subscriptions/<redacted>/resourcegroups/<redacted>/providers/microsoft.network/virtualnetworks/<redacted>/taggedTrafficConsumers/Microsoft.KeyVault.<region>' or the scope is invalid. If access was recently granted, please refresh your credentials."}
+```
+- Ref: https://social.msdn.microsoft.com/Forums/azure/en-US/86974de0-0e7c-444b-a697-07ae9a2c749c/error-when-i-try-to-create-a-firewall-rule-to-a-different-subscription?forum=ssdsgetstarted&prof=required
+
 # 12/10/2021
 ## "Extend" an AAD app's secret by creating a new one with old value ;)  - ref: https://www.jasonfritts.me/2021/06/03/extend-aad-service-principal-client-secret-expiration/
 
