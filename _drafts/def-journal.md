@@ -3,6 +3,16 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 01/05/2022
+## Down the application insights perf counter rabbit hole - https://stackoverflow.com/a/70610940/343347
+https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-troubleshoot-no-data
+- No performance data - Performance data (CPU, IO rate, and so on) is available for Java web services, Windows desktop apps, [IIS web apps and services if you install Application Insights Agent](https://docs.microsoft.com/en-us/azure/azure-monitor/app/status-monitor-v2-overview), and Azure Cloud Services. you'll find it under Settings, Servers
+  - This guidance is recommended for On-Premises and non-Azure cloud deployments of Application Insights Agent. Here's the recommended approach for [Azure virtual machine and virtual machine scale set deployments](https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-vm-vmss-apps).
+     - Auto-instrumentation via Application Insights Agent 
+       - ASP.NET / ASP.NET Core - The Application Insights Agent auto-collects the same dependency signals out-of-the-box as the .NET SDK. See [Dependency auto-collection to learn more](https://docs.microsoft.com/en-us/azure/azure-monitor/app/auto-collect-dependencies#net).
+     - Code Based 
+       - ASP.NET / ASP.NET Core - For .NET apps, this approach is much more customizable, but it requires [adding a dependency on the Application Insights SDK NuGet packages](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net). This method, also means you have to manage the updates to the latest version of the packages yourself.
+
 # 12/14/2021
 ## Keyvault Subnet Firewall failure with no clear indication as to why it is failing - FIX:need to enable Microsoft.KeyVault provider on subscription!
 ```
