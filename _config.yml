@@ -24,7 +24,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: felickz
 github_username:  felickz
 youtube_channel: UCEhTIa-lWlHoyE3TuC6Masg
+youtube_channel_name: "Chad Bentz"
 stackoverflow: "343347"
+stackoverflow_username: "felickz"
+thingiverse: "felickz"
 
 # Build settings
 markdown: kramdown
