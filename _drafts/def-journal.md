@@ -3,6 +3,10 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 01/13/2022
+## Cant edit Azure DevOps Wiki (non git backed) ... are you even a contrib bro?
+- Stakeholders cant contribute: https://developercommunity.visualstudio.com/t/user-cant-edit-wiki/1004728 - edit button will be grayed out
+
 # 01/05/2022
 ## Down the application insights perf counter rabbit hole - https://stackoverflow.com/a/70610940/343347
 https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-troubleshoot-no-data
