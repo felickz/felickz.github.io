@@ -3,6 +3,13 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 01/14/2022
+## Terraform THREEPOINTZERO beta opt in required for new hotness (app service plans)
+- https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/3.0-app-service-beta 
+  ```powershell 
+  $env:ARM_THREEPOINTZERO_BETA_RESOURCES = "true" 
+  ```
+
 # 01/13/2022
 ## Cant edit Azure DevOps Wiki (non git backed) ... are you even a contrib bro?
 - Stakeholders cant contribute: https://developercommunity.visualstudio.com/t/user-cant-edit-wiki/1004728 - edit button will be grayed out
