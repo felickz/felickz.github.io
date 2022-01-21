@@ -3,11 +3,35 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 01/21/2022
+## Terraform commands in windows are such a bear
+### Command Prompt 
+You must first escape quotes before sending in string literals 
+```cmd
+terraform import module.cmp1_test.netbox_interface.device_interface[\"eth0\"] 330033
+```
+
+### Powershell
+Along with escaping quotes - [the powershell parser fights you every step of the way](https://stackoverflow.com/a/62649280/343347)
+```
+ must disable PowerShell's parser to ensure that it doesn't try to interpret the arguments as a PowerShell expression, using the "Stop Parsing" symbol --%, and then use the same escaping as for normal Windows Command Prompt above:
+ ```
+
+ ```powershell
+ terraform --% import module.cmp1_test.netbox_interface.device_interface[\"eth0\"] 330033
+ ```
+
 # 01/14/2022
-## Terraform THREEPOINTZERO beta opt in required for new hotness (app service plans)
+## Terraform THREEPOINTZERO beta opt in required for new hotness (App Service Plans with App Service Environment V3)
 - https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/3.0-app-service-beta 
+  
+  Powershell
   ```powershell 
   $env:ARM_THREEPOINTZERO_BETA_RESOURCES = "true" 
+  ```
+  CMD
+  ```cmd
+  set ARM_THREEPOINTZERO_BETA_RESOURCES=true
   ```
 
 # 01/13/2022
