@@ -13,7 +13,7 @@ Spoiler Alert: all i had to do was disconnect/reconnect the battery and the amp/
 
 ## The fix
 
-To start off my 2021-2022 holiday vacation, I checked out the handy [Maintenance and Service guide](https://support.hp.com/us-en/product/hp-spectre-13-ae000-x360-convertible-pc/16779579/manuals) and then hopped on ebay to order a set of front speakers that would replace my "blown" ones. Fast forward a when I opened the package and found out that I accidentally picked up the wrong parts (┬┬﹏┬┬). I was in a rush to run out the door to a hockey game, so I threw the screws back into the cover and forgot about the laptop for a few days.  
+To start off my 2021-2022 holiday vacation, I checked out the handy [Maintenance and Service guide](https://support.hp.com/us-en/product/hp-spectre-13-ae000-x360-convertible-pc/16779579/manuals) and then hopped on ebay to order a set of front speakers that would replace my "blown" ones. Fast forward to when I opened the package and found out that I accidentally picked up the wrong parts (┬┬﹏┬┬). I was in a rush to run out the door to a hockey game, so I threw the screws back into the cover and forgot about the laptop for a few days.  
 
 ![Spectre Insides](/assets/img/2022-01-10-01-40-45.png)
 
