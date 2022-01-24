@@ -3,6 +3,24 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 1/24/2022
+## Alpine APK docker desktop using a proxy
+Chicken <--> Egg.. In order to install update-ca-certificates,  need to run apk add ca-certificates,  that needs a trusted cert. 
+
+* See: https://stackoverflow.com/a/67232164
+
+```
+FROM alpine:latest
+  
+COPY my-cert.pem /usr/local/share/ca-certificates/my-cert.crt
+
+RUN cat /usr/local/share/ca-certificates/my-cert.crt >> /etc/ssl/certs/ca-certificates.crt && \
+    apk --no-cache add \
+        curl
+```
+
+
+
 # 01/21/2022
 ## Terraform commands in windows are such a bear
 ### Command Prompt 
