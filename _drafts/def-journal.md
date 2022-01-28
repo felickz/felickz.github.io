@@ -3,6 +3,19 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 1/28/2022
+## Terraform Workarounds
+* Private DNS Tag issues: https://github.com/Azure/azure-rest-api-specs/issues/13600
+Workaround is to ignore lifecycle changes
+```json
+  lifecycle {
+    ignore_changes = [
+      //Private DNS Zone Bug https://github.com/hashicorp/terraform-provider-azurerm/issues/11032
+      tags,
+    ]
+  }
+```
+
 # 1/24/2022
 ## Alpine APK docker desktop using a proxy
 Chicken <--> Egg.. In order to install update-ca-certificates,  need to run apk add ca-certificates,  that needs a trusted cert. 
