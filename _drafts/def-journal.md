@@ -3,6 +3,24 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 2/2/2022
+## .NET WebApi Dynamic Compression for application/json response
+*NOTE:* Ensure that any compressed HTTPS responses with user controlled input containing sensitive data include a random pad to protect against the CRIME and [BREACH attacks as this scenario provides the attacker with an oracle.
+
+### .NET Framework / IIS 
+Dynamic Compression Module is the standard here
+
+https://docs.microsoft.com/en-us/iis/configuration/system.webserver/httpcompression/#configuration-sample 
+
+* default MIME types are found in ApplicationHost.config 
+   * does NOT contain `application/json` by default
+
+### .NET Core 
+https://docs.microsoft.com/en-us/aspnet/core/performance/response-compression?view=aspnetcore-6.0
+
+* `application/json` is a default MIME TYPE
+* EnableForHttps defaults to FALSE (see security reasoning)
+
 # 1/28/2022
 ## Terraform Workarounds
 * Private DNS Tag issues: https://github.com/Azure/azure-rest-api-specs/issues/13600
