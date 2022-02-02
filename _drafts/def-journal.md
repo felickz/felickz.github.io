@@ -15,6 +15,7 @@ Workaround is to ignore lifecycle changes
     ]
   }
 ```
+* App Service Plan # workers: https://github.com/hashicorp/terraform-provider-azurerm/issues/15176
 
 # 1/24/2022
 ## Alpine APK docker desktop using a proxy
