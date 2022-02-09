@@ -3,6 +3,22 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 2/8/2022
+# Microsoft UserVoice
+Unfortunately microsoft uservoice site was purged from existance.  For many years, this was the recommended way to engage microsoft product teams for feature requests.  I personally was following 60+ of these items. I submitted a handfull of these as well as i came across various gaps in Azure infrastructure that directly impacted my ability to deliver.  
+
+Some time around April 2021 microsoft decided to leave the UserVoice platform for a yet un-named solution.  I captured my distrust of this direction here: https://twitter.com/felickz/status/1388227778315702272
+
+Then it happened, in September 2021 - uservoice was shut down with no replacement in sight.  Microsoft directed to use the Q&A sites for feature requests ... felt like if i had done such a thing in StackOverflow my request would have been IMMEDEIATLY flagged and closed as off topic. After a few frustrating reports on Microsoft Q&A I pretty much gave up trying to contact any teams for feedback.
+
+Then in December 2021 - the new UserVoice replacement site was brought online.  Judging by the URLs this is a homegrown dynamics365 platform.  While much of the feedback and # of votes appears to have been captured, much is missing.  User who submitted feedback and any comments on the feedback nowhere to be found. Further, any items you were following did not port over to your profile.  
+
+Luckilly, i had captured urls for each of the items i was following - making it possible for me to now search the new site based on the url name from the UserVoice site and find all my feedback.  I feel like am back in a good state after 3+ hours of hunting down all my old feedback, giving them new upvotes, following, and commenting if something critical needed to be added. If you know the exact name of the title it is a striaight forward search in the new site.  Fortunately the name of the title was url encoded in the old UserVoice site!
+
+ex of url change:
+* From: https://feedback.azure.com/forums/169401-azure-active-directory/suggestions/42831765-b2c-custom-content-add-hiddenfield-as-userinputt
+* To: https://feedback.azure.com/d365community/idea/5f39dfe1-b625-ec11-b6e6-000d3a4f0789
+
 # 2/2/2022
 ## .NET WebApi Dynamic Compression for application/json response
 *NOTE:* Ensure that any compressed HTTPS responses with user controlled input containing sensitive data include a random pad to protect against the CRIME and [BREACH attacks as this scenario provides the attacker with an oracle.
