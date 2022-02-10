@@ -3,6 +3,18 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 2/10/2022
+# VS2022 Defaults
+If running 2019 and 2022 side by side and you are ready to move everything over to 2022.
+
+## Update registry
+`Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\devenv.exe` registry path needs updated with the 64 bit installer `"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\devenv.exe"` 
+
+## Windows Terminal / Explorer Update .SLN file handler
+Choose default program when opening .sln file to be 2022
+
+
+
 # 2/8/2022
 # Microsoft UserVoice
 Unfortunately microsoft uservoice site was purged from existance.  For many years, this was the recommended way to engage microsoft product teams for feature requests.  I personally was following 60+ of these items. I submitted a handfull of these as well as i came across various gaps in Azure infrastructure that directly impacted my ability to deliver.  
