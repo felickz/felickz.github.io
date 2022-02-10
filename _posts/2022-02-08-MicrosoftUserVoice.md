@@ -7,7 +7,7 @@ categories: Microsoft Azure UserVoice Feedback
 
 # Microsoft Feedback Migration off of UserVoice
 
-Unfortunately the Microsoft UserVoice site was purged from existance (i have not seen any publicly available information to explain this in detail).  For many years, this was the officially recommended way to engage Microsoft Product Group teams for feature requests. There were various states of a request that let you know: new items users are submitting - `under review`, what was a potential roadmap item `unplanned`,  road map items `planned`, items being worked `started` or `triaged` - usually accompanied by a (very) rough guestimate of the timeline for said feature, `completed` items, and the always frustrating `declined` status.
+Unfortunately the Microsoft UserVoice site was purged from existance (i have not seen any publicly available information to explain this in detail).  For many years, this was the officially recommended way to engage Microsoft Product Group teams for feature requests. There were various states of a request that let you know: new items users are submitting - `under review`, probably not going to happen - but PG has recognized the item `unplanned`,  road map items `planned`, items being worked `started` or `triaged` - usually accompanied by a (very) rough guestimate of the timeline for said feature, `completed` items, and the always frustrating `declined` status.
 
   I personally was following 60+ of these items - mostly Azure related. I submitted a handfull of feedback items as I came across various gaps in Azure infrastructure that directly impacted my ability to deliver a viable solution.
 
