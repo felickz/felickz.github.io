@@ -2,7 +2,8 @@
 layout: post
 title:  "Subwoofer replacement in 2016 Tesla Model X"
 date:   2020-06-14 22:02:00 -0500
-categories: Tesla ModelX Audio Subwoofer Rockford-Fosgate Punch
+tags: Tesla ModelX Audio Subwoofer Rockford-Fosgate Punch
+categories: Tesla
 ---
 
 

@@ -2,7 +2,8 @@
 layout: post
 title:  "Ryobi Electric 100ah Zero Turn Mower RY48ZTR100 Replacement Batteries"
 date:   2021-07-15 23:45:10 -0500
-categories: Ryobi Mower Electric Battery DIY
+tags: Ryobi Mower Electric Battery DIY
+categories: DIY
 ---
 
 ## Videos

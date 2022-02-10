@@ -2,7 +2,8 @@
 layout: post
 title:  "PopUp Camper Towing with a 2016 Tesla Model X"
 date:   2021-08-01 21:27:10 -0500
-categories: Tesla Towing Camping ModelX Jayco Teslafi
+tags: Tesla Towing Camping ModelX Jayco Teslafi
+category: Tesla
 ---
 
 ![Pull-Through-Supercharger-Middletown-DE](/assets/img/2021-08-01-22-03-41.png)

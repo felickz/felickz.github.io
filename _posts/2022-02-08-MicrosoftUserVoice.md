@@ -3,7 +3,7 @@ layout: post
 title:  "Microsoft Feedback UserVoice Migration"
 date:   2022-02-08 23:00:00 -0500
 tags: Microsoft Azure UserVoice Feedback
-categories: [Azure, Dev]
+categories: Dev
 ---
 
 # Microsoft Feedback Migration off of UserVoice

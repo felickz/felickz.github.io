@@ -2,7 +2,8 @@
 layout: post
 title:  "HP Spectre Blown Speakers"
 date:   2022-01-01 23:00:00 -0500
-categories: DIY HP-Spectre BUILD
+tags: DIY HP-Spectre BUILD
+categories: DIY
 ---
 
 ## HP Spectre x360 blown speakers?
