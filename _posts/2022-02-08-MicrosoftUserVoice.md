@@ -11,7 +11,10 @@ Unfortunately the Microsoft UserVoice site was purged from existance (i have not
 
   I personally was following 60+ of these items - mostly Azure related. I submitted a handfull of feedback items as I came across various gaps in Azure infrastructure that directly impacted my ability to deliver a viable solution.
 
-Some time around April 2021 microsoft decided to leave the UserVoice platform for a then un-named solution.  I captured my distrust of this direction here: https://twitter.com/felickz/status/1388227778315702272
+Some time around April 2021 microsoft decided to leave the UserVoice platform for a then un-named solution.  I captured my distrust of this direction here: 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Tread lightly <a href="https://twitter.com/Microsoft?ref_src=twsrc%5Etfw">@Microsoft</a> , <a href="https://twitter.com/UserVoice?ref_src=twsrc%5Etfw">@UserVoice</a><br>Is a single platform across your userbase for voicing concerns/feedback/feature suggestions... the ONLY way to crowdsource communication with your teams. <a href="https://t.co/GqWM48GUOf">https://t.co/GqWM48GUOf</a> <a href="https://t.co/NT5gTDvkZQ">pic.twitter.com/NT5gTDvkZQ</a></p>&mdash; felickz↙️ (@felickz) <a href="https://twitter.com/felickz/status/1388227778315702272?ref_src=twsrc%5Etfw">April 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 Then it happened, in September 2021 - uservoice was shut down with no replacement in sight.  Microsoft directed to use the Q&A sites for feature requests ... felt like if i had done such a thing in StackOverflow my request would have been IMMEDEIATLY flagged and closed as off topic.  Generally Q&A sites are reserved for questions - not ideas and bug reports.   After a few frustrating reports on Microsoft Q&A I pretty much gave up trying to contact any PG teams for feedback.
 
