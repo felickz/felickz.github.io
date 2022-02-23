@@ -3,6 +3,16 @@ layout: post
 title:  "My Dev Journal"
 ---
 
+# 2/23/2022
+# Azure CLI cmd to view cert uploaded to Azure Application Gateway
+https://docs.microsoft.com/en-us/cli/azure/network/application-gateway/ssl-cert?view=azure-cli-latest#az-network-application-gateway-ssl-cert-show-examples
+```bash
+publiccert=`az network application-gateway ssl-cert show -g MyResourceGroup --gateway-name MyAppGateway --name mywebsite.com --query publicCertData -o tsv`
+echo "-----BEGIN PKCS7-----" >> public.cert; echo "${publiccert}" >> public.cert; echo "-----END PKCS7-----" >> public.cert
+cat public.cert | fold -w 64 | openssl pkcs7 -print_certs | openssl x509 -noout -enddate
+```
+
+
 # 2/10/2022
 # VS2022 Defaults
 If running 2019 and 2022 side by side and you are ready to move everything over to 2022.
