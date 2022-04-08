@@ -10,11 +10,13 @@ categories: Dev
  - Hmmm, this is not the 14" that i wanted :D 13 inch M1 for now
  - Woah this magical touch bar is pretty cool and very context aware (zoom = mute/video cmds)
  - No Touchscreen... are you kidding me? Come on ... this is like feature 101.  Lay in bed and scroll through blogs with your fingers is so nice.
+ - Why doesnt my `⊞ Win` key work anymore ... wierd Ctrl does what i want MOST of the time
 
 # Long Term Impressions
  - Multi monitor is NOT a first class citizen - hotkeys to move windows to monitors are non existant ... 3rd party apps required!?!?
  - No touch id with laptop closed ... further you cant even buy the apple keyboard which has TouchID and use it on the external keyboard when lid is closed... WTF!?
  - The only things worse then MS Teams ... is MS Teams on Mac
+ - Why does every single app have a differnt shortcut for hyperlinks (windows ctrl+l was unanimous)
 
 On to the configuration changes i made:
 
