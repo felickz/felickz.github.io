@@ -45,6 +45,10 @@ Code installer does not automatically add to PATH.  It is very handy to hope int
 export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
 ```
 
+## VS
+Run local https sites by importing dev cert into keychain:
+```dotnet dev-certs https```
+
 ## Brew
 After installing [Brew](https://brew.sh/), read the output: Brew path - Run these two commands in your terminal to add Homebrew to your PATH:    
 ```
