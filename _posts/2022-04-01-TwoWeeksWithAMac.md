@@ -61,3 +61,15 @@ my brew utils:
 - GH CLI - ```brew install gh```
 - git LFS - ```brew install git-lfs```
 - docker - ```brew install --cask docker``` (https://stackoverflow.com/a/43365425/343347)
+
+## OneNote 
+Yeah I know, even on Mac - I cant get away from MSFT ... have been a OneNote power user for 7+ years so it is ingrained in my learning and thought process
+
+First things first ... *DO NOT USE THE APP STORE VERSION*. Download Office 365 and use the bundled version. Unclear why it is so much different, but notably i had a bunch of issues that were fixed going this route
+ - MSFT login would not stay authenticated
+ - Pasting in blobs of text that contain hyperlinks would never paste the links (maybe i changed a setting on source/dest formatting that broke this) 
+
+Still missing my poweruser shortcuts
+- CTRL SHIFT E / F for finding quickly
+- Meeting details ... needs outlook
+- [OneNote Onetastic/OneCalendar](https://getonetastic.com/download) not on mac :( 
