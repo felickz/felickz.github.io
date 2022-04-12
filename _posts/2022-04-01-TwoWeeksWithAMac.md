@@ -54,3 +54,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 my brew utils:
 - Azure CLI - ```brew update && brew install azure-cli```
 - CodeQL - ```brew install --cask codeql```
+- GH CLI - ```brew install gh```
+- git LFS - ```brew install git-lfs```
+- docker - ```brew install --cask docker``` (https://stackoverflow.com/a/43365425/343347)
