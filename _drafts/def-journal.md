@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Dev Journal"
+title:  "TIL"
 ---
 
 # 4/13/2022
