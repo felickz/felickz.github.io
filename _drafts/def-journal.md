@@ -5,7 +5,7 @@ title:  "My Dev Journal"
 
 # 4/13/2022
 ## GitHub Workflow Dispatch
-Added `workflow_dispatch` trigger in workflow configuration to allow for manual run of workflows!
+Added [workflow_dispatch](https://docs.github.com/en/enterprise-cloud@latest/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch) trigger in workflow configuration to allow for manual run of workflows!
 https://github.com/felickz/log4shell-vulnerable-app/pull/1/files#diff-63bd641104d10e25f141d518a16b22a151d125e12701df2f9e79734b23b90188
 
 # 2/23/2022
