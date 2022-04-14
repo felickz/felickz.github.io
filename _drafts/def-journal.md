@@ -31,7 +31,12 @@ cat public.cert | fold -w 64 | openssl pkcs7 -print_certs | openssl x509 -noout 
 If running 2019 and 2022 side by side and you are ready to move everything over to 2022.
 
 ### Update registry
-`Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\devenv.exe` registry path needs updated with the 64 bit installer `"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\devenv.exe"` 
+
+Key
+- `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\devenv.exe`
+
+registry path needs updated with the 64 bit installer 
+- `"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\devenv.exe"` 
 
 ### Windows Terminal / Explorer Update .SLN file handler
 Choose default program when opening .sln file to be 2022
