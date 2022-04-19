@@ -62,6 +62,7 @@ my brew utils:
 - git LFS - ```brew install git-lfs```
 - docker - ```brew install --cask docker``` (https://stackoverflow.com/a/43365425/343347)
 - BeyondCompare - ```brew install --cask beyond-compare```
+- pwsh - ```brew install --cask powershell```
 
 ## OneNote 
 Yeah I know, even on Mac - I cant get away from MSFT ... have been a OneNote power user for 7+ years so it is ingrained in my learning and thought process
