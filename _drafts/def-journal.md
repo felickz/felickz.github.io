@@ -7,7 +7,7 @@ title:  "TIL"
 
 ## [Chrome Actions](chrome://settings/searchEngines?search=manage+search)
 
-A quick google of how you can create a chrome extension to perform a command in the Chrome URL bar to behave like search enginge tab off functionality to execute a command lead me down a much easier path.  Low and behold Chrome `Site Search` Actions are a thing and this is fully configurable in settings.
+A quick google of how you can create a chrome extension to perform a command in the Chrome URL bar to behave like search enginge tab off functionality to execute a command led me down a much easier path.  Low and behold Chrome `Site Search` Actions are a thing and this is fully configurable in settings.
 
 Inspiration from: https://www.computerworld.com/article/3599146/chrome-address-bar-actions.html
 
