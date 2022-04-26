@@ -63,6 +63,8 @@ my brew utils:
 - docker - ```brew install --cask docker``` (https://stackoverflow.com/a/43365425/343347)
 - BeyondCompare - ```brew install --cask beyond-compare```
 - pwsh - ```brew install --cask powershell```
+- Insomnia - ```brew install --cask insomnia```
+- [syft](https://github.com/anchore/syft) - ```brew tap anchore/syft && brew tap anchore/syft```
 
 ## OneNote 
 Yeah I know, even on Mac - I cant get away from MSFT ... have been a OneNote power user for 7+ years so it is ingrained in my learning and thought process
