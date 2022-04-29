@@ -83,7 +83,6 @@ NOTE: this blog is a work in progress!
 		 * Correction: Perform Validation Test Drive
 
 
-
 * 11/10/2021
 	*  Correction: Control Arm - Upper - Front - Pair (Remove and Replace)
 	 * Correction: Hub - Front - LH (Remove & Replace)
@@ -94,22 +93,17 @@ NOTE: this blog is a work in progress!
 	 * Grease L & R front halfshafts
 	 * Replace bash plate
 
-
 * 11/22/2021
 	 * Correction: 3 Way Coolant Valve - Radiator Bypass (Remove & Replace)
 	 * Correction: 4 Way Coolant Valve - Radiator Bypass (Remove & Replace)
 	
-
-
-
 * 12/17/2021
 	 * Correction: Seal - Axle - Front Drive Unit - LH (1st Generation) (Includes Alignment Check)(Remove & Replace)
 
-
-
 * 04/04/2022
-	 * 12v battery replace
-	 * Seat belt adjustment
-    * (NOT UNDER WARRANTY) MCU2 + Tuner upgrade
-    	 * FR brakes / rotors
+	* 12v battery replace
+	* Seat belt adjustment
+	* (NOT UNDER WARRANTY) 
+		* MCU2 + Tuner upgrade
+    	* FR brakes / rotors
 	    * Parking brake pad
