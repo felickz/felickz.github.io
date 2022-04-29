@@ -53,4 +53,4 @@ categories: Tesla
 ## After CPO Warranty expired (8/2019)
 
 * 9/2019
-    * Replace: Master charger due to failure ($2508
+    * Replace: Master charger due to failure ($2508)
