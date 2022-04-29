@@ -6,7 +6,7 @@ tags: Tesla ModelS Service Warranty
 categories: Tesla
 ---
 
-# Background  
+# Background
   
   I purchased my 2013 Tesla Model S P85+ used with ~53,000 miles in late 2017.  This was my first experience buying a car: #1 sight unseen, #2 online, and #3 from Tesla.  All three of those things made for quite the experence! I had been following along cloesly online with how the process would go and therefore none of this was surprising to me in any way.  I was immediatly alerted when a Tesla for sale listing hit my specific criteria using my trusty Tesla price scraper [EV-CPO Hunter](https://ev-tsla.com/hunter/index.php).  I got the alert about my unicorn vehicle being available on the drive home from a barbeque.  I immediatly pulled over into a Wendy's parking lot, stared at the listing for 2-3 minutes on my phone, and then clicked the buy button! Then the wait started... almost exactly at the 12 week mark I picked up my S at my local-ish Tesla Service Center!
   
