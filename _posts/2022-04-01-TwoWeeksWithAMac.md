@@ -60,6 +60,7 @@ my brew utils:
 - CodeQL - ```brew install --cask codeql```
 - GH CLI - ```brew install gh```
 - git LFS - ```brew install git-lfs```
+- GH Desktop - ```brew install --cask github```
 - docker - ```brew install --cask docker``` (https://stackoverflow.com/a/43365425/343347)
 - BeyondCompare - ```brew install --cask beyond-compare```
 - pwsh - ```brew install --cask powershell```
