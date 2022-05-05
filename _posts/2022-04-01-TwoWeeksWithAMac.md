@@ -67,6 +67,7 @@ my brew utils:
 - Insomnia - ```brew install --cask insomnia```
 - [syft](https://github.com/anchore/syft) - ```brew tap anchore/syft && brew tap anchore/syft```
 - RDP - ```brew install --cask microsoft-remote-desktop```
+- NPM - ```brew install node```
 
 ## OneNote 
 Yeah I know, even on Mac - I cant get away from MSFT ... have been a OneNote power user for 7+ years so it is ingrained in my learning and thought process
