@@ -36,6 +36,9 @@ The copy comannds: `Ctrl + C/V/X` is now defaulting on my windows keyboard to  `
 ## End key goes to end of page, not line ( win + shift + L/R)
 << TODO >> ... this is annoying me every single day as I am a power editor :D
 
+## Zsh - Oh My ZSH!
+https://github.com/ohmyzsh/ohmyzsh
+
 # Apps
 
 ## VS Code
@@ -81,3 +84,4 @@ Still missing my poweruser shortcuts
 - CTRL SHIFT E / F for finding quickly
 - Meeting details ... needs outlook
 - [OneNote Onetastic/OneCalendar](https://getonetastic.com/download) not on mac :( 
+
