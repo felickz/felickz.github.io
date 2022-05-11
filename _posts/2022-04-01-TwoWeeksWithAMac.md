@@ -37,7 +37,10 @@ The copy comannds: `Ctrl + C/V/X` is now defaulting on my windows keyboard to  `
 << TODO >> ... this is annoying me every single day as I am a power editor :D
 
 ## Zsh - Oh My ZSH!
-https://github.com/ohmyzsh/ohmyzsh
+Install the ZSH command line enhancer via shell script here: https://github.com/ohmyzsh/ohmyzsh
+
+Attempted oh my posh, but the default powerline fonts are not working in Terminal .. instead of messing around there just switch to OMYZSH!  Install not totally clear, had to run this as well:
+```eval "$(oh-my-posh --init --shell zsh --config $(brew --prefix oh-my-posh)/themes/jandedobbeleer.omp.json)"``` 
 
 # Apps
 
