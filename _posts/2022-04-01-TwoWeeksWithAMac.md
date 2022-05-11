@@ -36,11 +36,6 @@ The copy comannds: `Ctrl + C/V/X` is now defaulting on my windows keyboard to  `
 ## End key goes to end of page, not line ( win + shift + L/R)
 << TODO >> ... this is annoying me every single day as I am a power editor :D
 
-## Zsh - Oh My ZSH!
-Install the ZSH command line enhancer via shell script here: https://github.com/ohmyzsh/ohmyzsh
-
-Attempted oh my posh, but the default powerline fonts are not working in Terminal .. instead of messing around there just switch to OMYZSH!  Install not totally clear, had to run this as well:
-```eval "$(oh-my-posh --init --shell zsh --config $(brew --prefix oh-my-posh)/themes/jandedobbeleer.omp.json)"``` 
 
 # Apps
 
@@ -88,3 +83,8 @@ Still missing my poweruser shortcuts
 - Meeting details ... needs outlook
 - [OneNote Onetastic/OneCalendar](https://getonetastic.com/download) not on mac :( 
 
+## Terminal Zsh - Oh My ZSH!
+Install the ZSH command line enhancer via shell script here: https://github.com/ohmyzsh/ohmyzsh
+
+Attempted oh my posh, but the default powerline fonts are not working in Terminal .. instead of messing around there just switch to OMYZSH!  Install not totally clear, had to run this as well:
+```eval "$(oh-my-posh --init --shell zsh --config $(brew --prefix oh-my-posh)/themes/jandedobbeleer.omp.json)"``` 
