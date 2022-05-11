@@ -3,6 +3,12 @@ layout: post
 title:  "TIL"
 ---
 
+# 5/11/2022
+
+## GO Build 
+Go Build failures do to GOPATH empty ... simple fix: https://stackoverflow.com/a/21499457/343347
+```export GOPATH=$HOME```
+
 # 4/21/2022
 
 ## [Chrome Actions](chrome://settings/searchEngines?search=manage+search)
