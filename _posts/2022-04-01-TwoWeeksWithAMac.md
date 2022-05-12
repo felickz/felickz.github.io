@@ -70,6 +70,8 @@ my brew utils:
 - RDP - ```brew install --cask microsoft-remote-desktop```
 - NPM - ```brew install node```
 - GO - ```brew install go@1.17```
+- CMake - ```brew install cmake```
+- AutoConf - ```brew install autoconf```
 
 ## OneNote 
 Yeah I know, even on Mac - I cant get away from MSFT ... have been a OneNote power user for 7+ years so it is ingrained in my learning and thought process
