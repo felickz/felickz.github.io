@@ -72,6 +72,7 @@ my brew utils:
 - GO - ```brew install go@1.17```
 - CMake - ```brew install cmake```
 - AutoConf - ```brew install autoconf```
+- Java - ```brew install java```
 
 ## OneNote 
 Yeah I know, even on Mac - I cant get away from MSFT ... have been a OneNote power user for 7+ years so it is ingrained in my learning and thought process
