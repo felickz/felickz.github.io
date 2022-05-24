@@ -3,6 +3,14 @@ layout: post
 title:  "TIL"
 ---
 
+# 5/24/2022
+
+## Unsafe JSON deserialization with CodeQL - csharp edition - Friday the 13th: JSON attacks
+- https://codeql.github.com/codeql-query-help/csharp/cs-unsafe-deserialization-untrusted-input/'
+    - query: https://github.com/github/codeql/blob/main/csharp/ql/src/Security%20Features/CWE-502/UnsafeDeserializationUntrustedInput.ql    
+- excelent watch: https://www.youtube.com/watch?v=oUAeWhW5b8c
+    - slides: https://www.blackhat.com/docs/us-17/thursday/us-17-Munoz-Friday-The-13th-Json-Attacks.pdf
+
 # 5/11/2022
 
 ## GO Build 
