@@ -3,6 +3,13 @@ layout: post
 title:  "TIL"
 ---
 
+# 6/10/2022
+
+## Semgrep 
+- install: ```brew install semgrep```
+- scan pwd & output as sarif: 
+```semgrep --config=auto . --sarif --output semgrep-results.sarif```
+
 # 5/24/2022
 
 ## Unsafe JSON deserialization with CodeQL - csharp edition - Friday the 13th: JSON attacks
