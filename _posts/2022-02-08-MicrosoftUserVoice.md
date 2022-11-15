@@ -24,7 +24,7 @@ Then it happened, in September 2021 - uservoice was shut down with no replacemen
 
 Then in December 2021 - the new UserVoice replacement site was brought online.  Judging by the URLs this is a homegrown dynamics365 platform.  While much of the feedback and # of votes appears to have been captured, much is missing.  The user who submitted feedback and any comments on the feedback is nowhere to be found. Further, any items you were following did not port over to your profile.  
 
-Luckilly, I had captured urls for each of the items i was following - making it possible for me to now search the new site based on the url name from the UserVoice site and find all my feedback.  I feel like am back in a good state after 3+ hours of hunting down all my old feedback, giving them new upvotes, following, and commenting if something critical needed to be added. If you know the exact name of the title it is a striaight forward search in the new site.  Fortunately the name of the title was url encoded in the old UserVoice site!
+Luckilly, I had captured urls for each of the items i was following - making it possible for me to now search the new site based on the url name from the UserVoice site and find all my feedback.  I feel like am back in a good state after 3+ hours of hunting down all my old feedback, giving them new upvotes, following, and commenting if something critical needed to be added. If you know the exact name of the title it is a straight forward search in the new site.  Fortunately the name of the title was url encoded in the old UserVoice site!
 
 ex of url change:
 * From: https://feedback.azure.com/forums/169401-azure-active-directory/suggestions/42831765-b2c-custom-content-add-hiddenfield-as-userinputt
