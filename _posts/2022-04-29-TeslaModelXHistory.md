@@ -107,3 +107,21 @@ NOTE: this blog is a work in progress!
 		* MCU2 + Tuner upgrade
     	* FR brakes / rotors
 	    * Parking brake pad
+
+* 11/28/2022
+   * BMS_w035 vehicle may not restart message
+      * Correction: Drive Unit - Rear - Large (Includes Alignment Check) (Remove & Replace)
+	  	* ASY,P-TRAIN,RMN,MDLS,SPORT,CMC,HS(1025598-00-T)
+		* NUT PLATE, M14(1014378-00-A) 2.00
+		* BOLT HF M14X2.00X50 DP [10.9] ZNAL-W(1009169-00-A)		
+		* ASY,HV COVER,INVERTER(1003783-00-B)
+	  * HV Rapid Splitter Vehicle Side (Remove & Replace)
+	  	* HV,RAPIDSPLITTER ASSY,MX,V3(1507386-25-C)
+		* HV HARN,RPD SPLTR-LDU,MX,MS2(1507386-02-A)
+		* HV HARN,GEN3 CHGR-RPD SPLTR,MX(1063800-10-C)
+		* BACK SEAL,DCS,50MM,CBL SIDE(1059316-00-C)
+		* KEY,PRS INSLVE,50MM,BLK,B-(1057707-00-B)
+		* SHLD CONT,PRS IN SLVE,DCS,50MM(1057706-00-A)
+		* KEY,PRS IN SLVE,50MM,RED,B+(1057705-00-B)
+	  * Correction: Coolant Heater - Electric - Battery (Remove & Replace)
+	  	* MDL X, THERM SYS,ELEC BATT HEATER(1048941-00-F)
