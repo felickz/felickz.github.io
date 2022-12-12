@@ -12,8 +12,8 @@ category: Tesla
 Best efficiency drive I had so far
 ![](/assets/img/2021-08-01-21-27-43.png)
 
-## 22's vs 20's 
-One of the first "de-modifications" i did when I started towing regularly was to get rid of my 22's.  They are heavier and have a significant decrease in range (for me ~20% reduction), even when not towing.  Further, they also have a reduced weight capacity ( though only towing a popup was not an issue for me).
+## 22" vs 20" OEM wheel options
+One of the first "de-modifications" I performed when I started towing regularly was to get rid of my 22" wheels.  They are heavier and have a significant decrease in range (for me ~20% reduction), even when not towing.  Further, they also have a reduced weight capacity ( though only towing a popup was not an issue for me) along with a harsher ride.
 
 ![ModelX-22v20](https://teslike.com/wp-content/uploads/2019/09/x-mi-912.png)
 
