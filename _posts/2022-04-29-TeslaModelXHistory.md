@@ -125,3 +125,11 @@ NOTE: this blog is a work in progress!
 		* KEY,PRS IN SLVE,50MM,RED,B+(1057705-00-B)
 	  * Correction: Coolant Heater - Electric - Battery (Remove & Replace)
 	  	* MDL X, THERM SYS,ELEC BATT HEATER(1048941-00-F)
+
+* 12/08/2022
+	*  Recall - Replace Steering Rack Housing Bolts, Model X
+		* STEEL BOLT FOR BOSCH STEERING GEAR (SET OF 5) (1500015-00-A)
+	* Vehicle coolant low
+		* Determined there was a large air bubble within the coolant system which set off the low coolant alert. Vacuum filling the coolant reservoir along with 5+ coolant purges has pushed the air from the system.
+	* Won't charge. Red light (6 flashes) on wall charger V2
+		*  Found 1 ground going to the charger was slightly loose which caused an intermittent charging concern. Re secured ground screw and fully charged vehicle.
