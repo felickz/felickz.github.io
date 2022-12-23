@@ -3,6 +3,19 @@ layout: post
 title:  "TIL"
 ---
 
+# 12/23/2022
+- Wow it has been a while
+- Update an existing git tag on a repo
+   - Delete the tag on any remote before you push
+   - Replace the tag to reference the most recent commit
+   - Push the tag to the remote origin
+```bash
+
+git push origin :refs/tags/<tagname>
+git tag -fa <tagname> -m "commit message"
+git push origin main --tags
+```
+
 # 6/10/2022
 
 ## Semgrep 
