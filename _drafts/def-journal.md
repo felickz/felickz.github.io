@@ -5,7 +5,7 @@ title:  "TIL"
 
 # 12/23/2022
 - Wow it has been a while
-- Update an existing git tag on a repo
+- [Update an existing git tag on a repo](https://stackoverflow.com/a/8044605/343347)
    - Delete the tag on any remote before you push
    - Replace the tag to reference the most recent commit
    - Push the tag to the remote origin
