@@ -109,10 +109,8 @@ NOTE: this blog is a work in progress!
 	    * Parking brake pad
 
 * 08/16/2022
-
-	Correction: Door - Charge Port (Remove & Replace)
-
-ASSY, MOTORIZED CHARGEPORT DOOR, SAE(1038548-00-I)
+   * Correction: Door - Charge Port (Remove & Replace)
+       * ASSYY, MOTORIZED CHARGEPORT DOOR, SAE(1038548-00-I)
 
 * 11/28/2022
    * BMS_w035 vehicle may not restart message
