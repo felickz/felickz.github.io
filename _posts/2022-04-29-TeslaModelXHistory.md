@@ -108,6 +108,12 @@ NOTE: this blog is a work in progress!
     	* FR brakes / rotors
 	    * Parking brake pad
 
+* 08/16/2022
+
+	Correction: Door - Charge Port (Remove & Replace)
+
+ASSY, MOTORIZED CHARGEPORT DOOR, SAE(1038548-00-I)
+
 * 11/28/2022
    * BMS_w035 vehicle may not restart message
       * Correction: Drive Unit - Rear - Large (Includes Alignment Check) (Remove & Replace)
