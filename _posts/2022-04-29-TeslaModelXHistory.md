@@ -14,13 +14,9 @@ NOTE: this blog is a work in progress!
    * 3rd row seatbelts not retracting fully
 	* Broken FWD latch covers
 		 * Correction: Cover - Lower Latch - Door - Rear - LH (Remove & Replace)
-		Parts Replaced or Added
-		Part Quantity
-		LOWER LATCH COVER(1054149-00-G) 1.0
-		Correction: Cover - Lower Latch - Door - Rear - RH (Remove & Replace)
-		Parts Replaced or Added
-		Part Quantity
-		LOWER LATCH COVER(1054149-00-G) 1.0
+			* LOWER LATCH COVER(1054149-00-G) 1.0
+		  * Correction: Cover - Lower Latch - Door - Rear - RH (Remove & Replace)
+			* LOWER LATCH COVER(1054149-00-G) 1.0
 	* Passenger door slow to open, loud long motor sound
 		 * Hello, we have replaced a regulator in your passenger front door. 
 	* (NOT UNDER WARRANTY) Replaced FWD switches to new version
@@ -54,30 +50,16 @@ NOTE: this blog is a work in progress!
             operation of RH rear door. 
 	         ```
 		 * Correction: Applique - Spine - Center (Remove & Replace)
-		 * Parts Replaced or Added
-         Part Quantity
-         ASY CARRIER MX CENTER SPINE APPLIQUE, RH
-         (1054830-99-F)
-         1.0
-         Dow BetaSeal Express(1048645-00-A) 1.0
-         RWK, MX CENTER SPINE APPLIQUE ASSY(1041361-S0-
-         A)
-         1.0
-         NUT,HX,SEMS,M6,[8],G0109(1009946-00-A) 10.0
-         Correction: Rear Door Spring - Rear - RH - Pair (Remove & Replace)
-         Parts Replaced or Added
-         Part Quantity
-         SPRING - REAR DOOR COUNTERBALANCE RH
-         (1047581-00-D)
-         1.0
-         SPRING - REAR DOOR COUNTERBALANCE LH
-         (1047580-00-D)
-         1.0
-         RWK, REAR DOOR PRIMARY SEAL,RH(1032470-75-C) 1.0
+		 	* ASY CARRIER MX CENTER SPINE APPLIQUE, RH (1054830-99-F)
+			* Dow BetaSeal Express(1048645-00-A) 1.0
+        	* RWK, MX CENTER SPINE APPLIQUE ASSY(1041361-S0-A)         
+         	* NUT,HX,SEMS,M6,[8],G0109(1009946-00-A) 10.0
+         * Correction: Rear Door Spring - Rear - RH - Pair (Remove & Replace)
+			* SPRING - REAR DOOR COUNTERBALANCE RH (1047581-00-D)
+			* SPRING - REAR DOOR COUNTERBALANCE LH (1047580-00-D)
+			* RWK, REAR DOOR PRIMARY SEAL,RH(1032470-75-C) 1.0
 		 * Correction: Door Glass Assembly - Rear - Upper - RH (Remove & Replace)
-         Parts Replaced or Added
-         Part Quantity
-         RR DOOR ROOF GLASS ASY, RH(1034903-00-P) 1.0
+         	* RR DOOR ROOF GLASS ASY, RH(1034903-00-P) 1.0
 		 * Correction: Rear Door Adjustment - Severe
 		 * Correction: Test To Confirm Water Ingress No Longer Present
 		 * Correction: Perform Validation Test Drive
