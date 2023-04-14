@@ -19,11 +19,11 @@ categories: DIY
 
 ## Specs
 ### Factory Battery - Leoch LPC12-100
-* Datasheet: http://www.leoch.us/pdf/reserve-power/agm-vrla/lpc-deep-cycle/LPC12-100.pdf
+* [Datasheet](http://www.leoch.us/pdf/reserve-power/agm-vrla/lpc-deep-cycle/LPC12-100.pdf)
 
 ### Interstate DCM0100
-* Specs: https://products.interstatebatteries.com/product/detail/DCM0100
-* Amazon: DCM0100 110Ah batteries(https://amzn.to/3KSEqv4) 
+* [Specs](https://products.interstatebatteries.com/product/detail/DCM0100)
+* [Amazon DCM0100 110Ah batteries](https://amzn.to/3KSEqv4) 
 
 
 ![Battery Tray](/assets/img/2021-08-01-20-43-36.png) 
