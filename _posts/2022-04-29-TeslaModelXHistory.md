@@ -163,3 +163,25 @@ NOTE: this blog is a work in progress!
 			* FORE LINK ASSEMBLY,LEFT HAND(1620341-00-B)
 			* WASHER, NORDLOCK,15.2X30.7X3.4(1033093-00-A)
 			* NUT HF M14X1.50 [10] ZNNI NL INSERT(1004358-00-C)
+
+* 08/03/2023
+	* Suspension Noise when turning 
+		* Correction: Subframe Assembly - Front (1st Generation) (Remove and Replace) - Remove and Replace 
+			* BOLT(2007111) 2.00 
+			* BOLT,HF,M12X150,ZNFL,NOTCH,MAT(1058584- 00-A) 2.00 
+			* ASSY, FR SUBF, MX(1027516-00-E) 1.00 
+			* BOLT HF M14X2.00X50 DP [10.9] ZNAL-W(1009169-00-A) 
+		* Correction: Steering Rack (Remove & Replace) - Remove and Replace 
+			* NUT HF M10X1.25 PC10 PTP COLORED(2007090-00- C) 2.00 
+			* LEFT HAND DRIVE STEERING GEAR W/ 1.00 0.00 
+			* STEEL BOLTS + WAX(1467673-00-A) 
+			* BOLT HF M14x78 PC109(1051424-00-A) 2.00 
+			* BOLT HF M8x50 PC109 MAT(1046838-00-A) 2.00 
+			* NUT HF M14X1.50 [10] ZNNI NL INSERT(1004358-00-C) 4.00 
+			* NUT HFPT M14-2.00 [10] ZnNi-W(1004356- 00-B)
+		* Correction: Four Wheel Alignment Check and Adjust 
+	* AC blows warm 
+		* Correction: Wire - Electrical Harness (Does Not Include Access Labor) (Repair) 
+	* Trunk Tie Down broken
+		* Correction: Bracket - Trunk Load Floor - RH (Remove and Replace) - Remove and Replace 
+			* ASSY TRUNK TIE DOWN(1061158-00-B)
