@@ -18,6 +18,7 @@ winget install --id=ScooterSoftware.BeyondCompare4  -e
 winget install Docker.DockerDesktop -e
 winget install --id Git.Git -e --source winget
 winget install github.cli
+winget install jqlang.jq
 ```
 
 ## Installs
