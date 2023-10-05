@@ -17,7 +17,7 @@ winget install --id=7zip.7zip  -e
 winget install --id=ScooterSoftware.BeyondCompare4  -e
 winget install Docker.DockerDesktop -e
 winget install --id Git.Git -e --source winget
-winget install github.cli -e
+winget install github.cli
 ```
 
 ## Installs
