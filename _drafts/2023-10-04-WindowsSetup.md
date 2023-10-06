@@ -18,7 +18,8 @@ winget install --id=ScooterSoftware.BeyondCompare4  -e
 winget install Docker.DockerDesktop -e
 winget install --id Git.Git -e --source winget
 winget install github.cli
-winget install jqlang.jq
+winget install jqlang.jq # add jq folder to path %USERPROFILE%\appdata\local\microsoft\winget\links (https://github.com/jqlang/jq/issues/2269)
+winget install -e --id Microsoft.AzureCLI
 ```
 
 ## Installs
