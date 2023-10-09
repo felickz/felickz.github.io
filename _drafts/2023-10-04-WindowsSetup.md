@@ -27,3 +27,5 @@ winget install -e --id Microsoft.AzureCLI
 ```
 wsl --install
 ```
+
+- [Rustup](rustup.rs)
