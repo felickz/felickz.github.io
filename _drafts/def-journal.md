@@ -3,6 +3,65 @@ layout: post
 title:  "TIL"
 ---
 
+# 10/06/2023
+- Lookup the permissions bits to set for the new GHAzDO policies in AzDO
+
+```powershell
+az devops security permission namespace list | jq '.[] | select(.name=="Git Repositories") | .actions[] | select(.name | contains("AdvSec")) | "\(.name) = \(.bit)"'
+```
+
+ "ViewAdvSecAlerts = 65536"
+ "DismissAdvSecAlerts = 131072"
+ "ManageAdvSecScanning = 262144"
+
+# 10/05/2023
+- Get the state of the lastest CodeQL Actions workflows to look for failures in scanning in GHAS scans
+```powershell
+$org = "vulna-felickz"; gh api /orgs/$org/repos |  jq -r '.[] | .name' | %{ $name = $_; gh api /repos/$org/$_/actions/workflows | jq '.workflows[] | select(.name=="CodeQL") | .id' | % { gh api /repos/$org/$name/actions/workflows/$_/runs?exclude_pull_requests=true } | jq -r '.workflow_runs[0] | "\(.conclusion) - \(.html_url)"' }
+```
+
+results:
+ success - https://github.com/vulna-felickz/WebGoat.NET/actions/runs/3497120617
+ success - https://github.com/vulna-felickz/WebGoat.NET-CORE/actions/runs/6383441854
+ success - https://github.com/vulna-felickz/log4shell-vulnerable-app/actions/runs/5289516341
+ success - https://github.com/vulna-felickz/reactvulna/actions/runs/5780665366
+ success - https://github.com/vulna-felickz/FullDotNetWebApp/actions/runs/5173725533
+ success - https://github.com/vulna-felickz/DotNetCoreWebApp/actions/runs/4483110033
+ success - https://github.com/vulna-felickz/code-scanning-javascript-demo/actions/runs/2633836803
+ success - https://github.com/vulna-felickz/BenchmarkJava/actions/runs/2685850607
+ failure - https://github.com/vulna-felickz/babel/actions/runs/6376049500
+ success - https://github.com/vulna-felickz/Damn-Vulnerable-GraphQL-Application/actions/runs/2819556620
+ failure - https://github.com/vulna-felickz/DotNetCoreWebAPI/actions/runs/6387549363
+ success - https://github.com/vulna-felickz/WebGoat/actions/runs/5372117418
+ success - https://github.com/vulna-felickz/railsgoat/actions/runs/4793129543
+ success - https://github.com/vulna-felickz/VulnerableApp/actions/runs/4401479230
+
+# 08/25/2023
+- Script to find repos that are compiled langs that need additional setup after "Enable All" for default enablement - Security overview filters `code-scanning-alerts:not-enabled code-scanning-default-setup:eligible`  cannot be used for this as default setup eligible will exclude repos that ONLY support default w/ "These languages need manual activation"
+
+```powershell
+gh api search/repositories -X GET -f q="org:octodemo language:csharp,swift,c,cpp,java,kotlin" --jq '.items | map(.full_name) | .[]' | ForEach-Object { $(Invoke-RestMethod -Uri https://api.github.com/repos/$_/code-scanning/analyses -Headers @{ Authorization="Bearer $(gh auth token)"} -SkipHttpErrorCheck ).message -eq "no analysis found" ? "$_ - No Analysis" : "$_ - Found Analysis"}
+```
+
+results:
+ octodemo/advanced-security-csharp - Found Analysis
+ octodemo/GitHubAppDotnetSample - No Analysis
+ octodemo/BeamCodespacesDemo - Found Analysis
+ octodemo/WebApplication1-mcantu - Found Analysis
+ octodemo/NET_Core_AzDO_Pipeline - No Analysis
+ octodemo/webgoat_dot_net - Found Analysis
+ octodemo/RockPaperScissorsLizardSpockIgnite - Found Analysis
+ octodemo/ReadingTime3 - Found Analysis
+ octodemo/polivebranch-leveluplab - Found Analysis
+ octodemo/octodemo-lib - No Analysis
+ octodemo/codeql-msbuild-example - Found Analysis
+ octodemo/serverless-app-with-actions - Found Analysis
+ octodemo/nuget-auth-examples - No Analysis
+ octodemo/dotnet-utils - No Analysis
+ octodemo/lf-cs-20231002 - No Analysis
+ octodemo/polivebranch-blazor-beams - Found Analysis
+
+
 # 12/23/2022
 - Wow it has been a while
 - [Update an existing git tag on a repo](https://stackoverflow.com/a/8044605/343347)
