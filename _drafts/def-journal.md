@@ -3,6 +3,23 @@ layout: post
 title:  "TIL"
 ---
 
+# 10/09/2023
+- Code Scanning CodeQL API calls
+   - get the latest analyses id
+   ```powershell
+    gh api repos/octodemo/demo-vulnerabilities-ghas/code-scanning/analyses -F per_page=1 -F tool_name=CodeQL -X GET
+   ``` 
+   - download the sarif for an analyses (hardcoded id)
+   ```powershell
+     gh api -H "Accept: application/sarif+json" /repos/octodemo/demo-vulnerabilities-ghas/code-scanning/analyses/126917853 > recreated.sarif
+   ```
+
+   - 👏 now lets put it all together in a one liner! 👏
+   ```powershell
+   gh api -H "Accept: application/sarif+json" /repos/octodemo/demo-vulnerabilities-ghas/code-scanning/analyses/$(gh api repos/octodemo/demo-vulnerabilities-ghas/code-scanning/analyses -F per_page=1 -F tool_name=CodeQL -X GET | jq -r '.[0].id') > recreated.sarif
+   ```
+
+
 # 10/06/2023
 - Lookup the permissions bits to set for the new GHAzDO policies in AzDO
 
