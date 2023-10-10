@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Win Setup"
-date:   2022-04-21 23:00:00 -0500
+title:  "PC Guy trys Mac and goes back to Win"
+date:   2023-10-10 23:00:00 -0500
 categories: Dev
 ---
+
+After spending a year running Mac as my primary machine - heading back to PC!
 
 # Windows 11 Customizations
 
