@@ -23,7 +23,13 @@ winget install github.cli
 winget install jqlang.jq # add jq folder to path %USERPROFILE%\appdata\local\microsoft\winget\links (https://github.com/jqlang/jq/issues/2269)
 winget install -e --id Microsoft.AzureCLI
 winget install OpenJS.NodeJS
+winget install "NuGet Package Explorer"
+winget install --id=GoLang.Go  -e
 ```
+
+## Choco
+https://dvlup.com/2020/12/29/2021-ultimate-list/
+
 
 ## Installs
 
