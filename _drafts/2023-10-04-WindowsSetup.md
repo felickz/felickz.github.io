@@ -40,6 +40,7 @@ winget install Microsoft.OpenJDK.21
 
 ## Installers
 - [Rustup](rustup.rs)
+- [Maven](https://maven.apache.org/install.html) - winget now supports zip... maybe soon!
 ```
 wsl --install
 ```
