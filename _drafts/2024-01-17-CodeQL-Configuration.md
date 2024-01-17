@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building reusable CodeQL setup through configuration files"
+title:  "Building reusable CodeQL setup through custom configuration files"
 date:   2024-01-17 23:00:00 -0500
 categories: Dev
 ---
@@ -24,6 +24,7 @@ Why use configuration files?
 
 ## Docs
 - https://codeql.github.com/docs/codeql-cli/creating-codeql-query-suites/
+- https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning#using-a-custom-configuration-file
 
 
 
