@@ -9,9 +9,11 @@ After spending a year running Mac as my primary machine - heading back to PC!
 
 # Windows 11 Customizations
 
-## WinGet
+Mostly using WinGet/Choco when possible.
+- https://dvlup.com/2020/12/29/2021-ultimate-list/
 
-### Tools
+
+## Tools
 
 ```
 winget install -e --id Microsoft.VisualStudioCode
@@ -21,11 +23,12 @@ winget install --id=ScooterSoftware.BeyondCompare4  -e
 winget install Docker.DockerDesktop -e
 winget install --id Git.Git -e --source winget
 winget install github.cli
-
 winget install -e --id Microsoft.AzureCLI
 ```
 
-### Languages
+
+
+## Languages
 ```
 winget install --id Microsoft.Powershell --source winget
 winget install OpenJS.NodeJS
@@ -35,16 +38,14 @@ winget install --id=GoLang.Go  -e
 winget install Microsoft.OpenJDK.21
 ```
 
+## Installers
 - [Rustup](rustup.rs)
-
-
-## Choco
-https://dvlup.com/2020/12/29/2021-ultimate-list/
-
-
-## Installs
-
 ```
 wsl --install
 ```
+
+
+
+
+
 
