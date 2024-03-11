@@ -10,6 +10,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ## Jekyll Local
 > bundle exec jekyll serve --watch
 
+or 
+
+> bundle exec jekyll serve --livereload
+
 show drafts:
 > bundle exec jekyll serve --watch --drafts
 
