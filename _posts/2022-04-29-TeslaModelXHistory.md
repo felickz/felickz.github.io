@@ -185,3 +185,29 @@ NOTE: this blog is a work in progress!
 	* Trunk Tie Down broken
 		* Correction: Bracket - Trunk Load Floor - RH (Remove and Replace) - Remove and Replace 
 			* ASSY TRUNK TIE DOWN(1061158-00-B)
+
+* 11/03/2023
+	* Rattle or Squeak - Loud squeaky/creaking/rubbing noise when changingsteering angle ( not related to braking). 
+		* Correction: Front Suspension Noise Diagnosis
+		* Correction: Panel - Aero Shield - Front (Remove & Install) - Remove and Install
+		* Correction: Adjustment: Exterior Trim
+
+* 11/16/2023
+	* Squeaking/clicking noise from front suspension while turning
+		* Correction: Stabilizer Bar - Front (Remove & Replace) - Remove and Replace
+			* BOLT,HF,M12X150,ZNFL,NOTCH,MAT(1058584- 00-A) 2.00
+			* WASHER, NORDLOCK, 15.2X30.7X3.4(1033093-00-A) 4.00 
+			* FR STABAR ASSY 25MM(1027386-00-A) 1.00
+			* NUT HF M14X1.50 [10] ZNNI NL INSERT(1004358-00-C) 4.00
+			* NUT HFPT M14-2.00 [10] ZnNi-W(1004356-00- B) 2.00
+
+* 3/4/2024
+	*  As per service action replaced the HV battery fuse. Programmed new fuse to the vehicle and verified the alert cleared. 
+		* Correction: Fuse - Pyrotechnic - HV Battery 2.0 (Remove & Replace) - Remove and Replace 
+			* DISCONNECT,PYROTECHNIC,CUR POWERED,2000A(1111313-00-F) 1.00
+	* Exterior Trim - Replace front right fender garnish
+		* Correction: Garnish - Fender - Front - RH (Remove & Replace) - Remove and Replace
+			* FENDER GARNISH FRONT RIGHT HAND(1035289-00-P) 1.00
+	* MCU_w005 "Brake fluid low" has shown up sporadically since last service
+		* Found the harness rubbed the air suspension tank and grounded out.
+		* Correction: Wiper Module (LHD) (Remove & Replace) - Remove and Replace 
