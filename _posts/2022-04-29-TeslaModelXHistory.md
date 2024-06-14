@@ -201,6 +201,8 @@ NOTE: this blog is a work in progress!
 			* NUT HF M14X1.50 [10] ZNNI NL INSERT(1004358-00-C) 4.00
 			* NUT HFPT M14-2.00 [10] ZnNi-W(1004356-00- B) 2.00
 
+# Outside of Tesla Used warranty
+
 * 3/4/2024
 	*  As per service action replaced the HV battery fuse. Programmed new fuse to the vehicle and verified the alert cleared. 
 		* Correction: Fuse - Pyrotechnic - HV Battery 2.0 (Remove & Replace) - Remove and Replace 
@@ -211,3 +213,15 @@ NOTE: this blog is a work in progress!
 	* MCU_w005 "Brake fluid low" has shown up sporadically since last service
 		* Found the harness rubbed the air suspension tank and grounded out.
 		* Correction: Wiper Module (LHD) (Remove & Replace) - Remove and Replace 
+
+* 6/12/2024
+	* Correction: Four Wheel Alignment - Check and Adjust
+	* Correction: Integral Link - Rear - LH	(Remove & Replace)
+	* Correction: Integral Link - Rear - RH (Remove & Replace)
+	* Correction: Hub - Front - LH (Remove & Replace) 
+	* Correction: Knuckle - Suspension - Front - LH (Remove & Replace) 
+	* Correction: Control Arm - Upper - Front - LH (Includes Alignment Check) (Remove & Replace )
+	* Correction: Link - Fore - Lower - Front - LH (Remove & Replace) 
+	* Correction: Link - Front Suspension - Lower - Aft - LH (Remove & Replace)
+	* Correction: Air Spring Module - Front - LH (Remove & Replace)
+	* Correction: Toe Link Assembly - Rear - RH (Remove & Replace)
