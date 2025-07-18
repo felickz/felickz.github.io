@@ -225,3 +225,20 @@ NOTE: this blog is a work in progress!
 	* Correction: Link - Front Suspension - Lower - Aft - LH (Remove & Replace)
 	* Correction: Air Spring Module - Front - LH (Remove & Replace)
 	* Correction: Toe Link Assembly - Rear - RH (Remove & Replace)
+
+
+
+* 7/18/2025
+  * Concern: Customer states: Windshield Wipers - Wiper interference with hood. Paint is worn off
+wiper assembly where rubbing on hood.
+Repair Notes: Verified customer concern. Removed passenger side wiper arm assembly to
+inspect. Found bearing in pivot mechanism on wiper arm, failed, causing the wiper arm to lift up
+and contact the hood. Bearing is not available separately. Replaced wiper arm assembly.After
+replacement, verified proper operation. Concern no longer present.
+  * Correction: Wiper Arm - RH (Remove
+& Replace) - Remove and Replace
+  * WIPER ARM AND
+BLADE ASSEMBLY -
+PASSENGER - LEFT
+HAND DRIVE(1046670-
+00-C)
