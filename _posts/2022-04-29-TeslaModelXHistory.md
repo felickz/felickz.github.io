@@ -226,7 +226,22 @@ NOTE: this blog is a work in progress!
 	* Correction: Air Spring Module - Front - LH (Remove & Replace)
 	* Correction: Toe Link Assembly - Rear - RH (Remove & Replace)
 
+* 4/22/2025
 
+  * Concern: Customer states: Door Handles & Latches - Funk won't open. Pull latch under bumper
+doesn't help Dash says frunk is open
+Repair Notes: Verified customer concern. When attempting to open front trunk through emergency
+release cables, primary was very difficult to move. Was eventually able to get the front trunk open
+with the emergency release cable. Inspected and found cables from release mechanism to latch
+were corroded and sticking. Replaced release mechanism. Reassembled and verified proper
+operation. Concern no longer present.
+    * Correction: Actuator - Latch - Hood -
+Primary (Remove & Replace) -
+Remove and Replace
+    * HOOD LATCH
+RELEASE
+ASSEMBLY(1057991-
+00-F)
 
 * 7/18/2025
   * Concern: Customer states: Windshield Wipers - Wiper interference with hood. Paint is worn off
@@ -235,9 +250,9 @@ Repair Notes: Verified customer concern. Removed passenger side wiper arm assemb
 inspect. Found bearing in pivot mechanism on wiper arm, failed, causing the wiper arm to lift up
 and contact the hood. Bearing is not available separately. Replaced wiper arm assembly.After
 replacement, verified proper operation. Concern no longer present.
-  * Correction: Wiper Arm - RH (Remove
+    * Correction: Wiper Arm - RH (Remove
 & Replace) - Remove and Replace
-  * WIPER ARM AND
+    * WIPER ARM AND
 BLADE ASSEMBLY -
 PASSENGER - LEFT
 HAND DRIVE(1046670-
