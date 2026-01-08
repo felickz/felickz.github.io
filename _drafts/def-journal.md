@@ -3,6 +3,15 @@ layout: post
 title:  "TIL"
 ---
 
+# 01/08/2026
+- Trigger an emtpty commit to kick off CI in github
+
+```bash
+git checkout <your-pr-branch>
+git commit --allow-empty -m "chore: retrigger CI"
+git push
+```
+
 # 10/09/2023
 - Code Scanning CodeQL API calls
    - get the latest analyses id
