@@ -3,6 +3,10 @@ layout: post
 title:  "TIL"
 ---
 
+# 04/20/2026
+
+- MCP 403/404s with the Github `github-mcp-server` in the copilot cli? This will not utilize the gh cli for auth rather the session will need to be refreshed with a `/logout` and `login` call
+
 # 01/08/2026
 - Trigger an emtpty commit to kick off CI in github
 
