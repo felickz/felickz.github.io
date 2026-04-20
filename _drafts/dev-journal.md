@@ -15,6 +15,7 @@ git checkout <your-pr-branch>
 git commit --allow-empty -m "chore: retrigger CI"
 git push
 ```
+ - Alternatively - close and reopen pull request to trigger flows without a commit
 
 # 10/09/2023
 - Code Scanning CodeQL API calls
